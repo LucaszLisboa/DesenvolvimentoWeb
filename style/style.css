@@ -1,0 +1,43 @@
+body{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 800px;
+    border: solid 1px black;
+    border-radius: 50px;
+    background-color: rgba(47, 120, 255, 0.712);
+}
+
+#count{
+    font-size:100px;
+}
+
+.botaos{
+    display: flex;
+    gap: 50px;
+}
+
+.botaos button{
+    width: 200px;
+    height: 80px;
+    border-radius: 50px;
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+
+#acres{
+    background-color: rgb(189, 255, 113);
+}
+
+#reset{
+    background-color: rgb(253, 253, 125);
+}
+
+#decres{
+    background-color: rgb(255, 123, 123);
+}
