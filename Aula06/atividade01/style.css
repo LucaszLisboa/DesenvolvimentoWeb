@@ -131,6 +131,10 @@ h1{
     border-radius: 10px;
 }
 
+.botao:hover{
+    background-color: #d16500
+}
+
 .botao-pause{
     align-items: center;
     padding: 10px 15px;
@@ -144,6 +148,10 @@ h1{
     border-radius: 10px;
 }
 
+.botao-pause:hover{
+    background: #b82929;
+}
+
 .botao-reset{
     align-items: center;
     padding: 10px 15px;
@@ -155,4 +163,8 @@ h1{
 
     background: #2E9C12;
     border-radius: 10px;
+}
+
+.botao-reset:hover{
+    background: #247c0d;
 }

@@ -26,11 +26,11 @@ start.onclick = () => {
     if(flag == 1){
         intervalo = setInterval(() => {
             contadorSegundos()
-            segundos.innerHTML = seg;
-            minutos.innerHTML = min;
-            hour.innerHTML = hor;
+            segundos.innerHTML = ("00" + seg).slice(-2);
+            minutos.innerHTML = ("00" + min).slice(-2);
+            hour.innerHTML = ("00" + hor).slice(-2);
     
-        }, 5)
+        }, 1000)
         start.innerHTML = "Pause";
         start.classList.remove("botao");
         start.classList.add("botao-pause");
