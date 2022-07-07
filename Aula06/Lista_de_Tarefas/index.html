@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lista de Tarefas</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,7 +15,7 @@
         </div>
 
         <div id="pesquisa">
-            <input class="barra-pesquisa" type="text" placeholder="     Nova tarefa que deseja realizar">
+            <input class="barra-pesquisa" type="text" placeholder="  Nova tarefa que deseja realizar">
             <button class="btn-adicionar">+</button>
         </div>
 
@@ -23,23 +23,33 @@
             <div class="checkbox">
                 <input type="checkbox" >
                 <label for="">Ir no mercado</label>
+                <button class="apagar"></button>
             </div>
 
             <div class="checkbox">
                 <input type="checkbox">
                 <label for="">Jogar com o Caio</label>
+                <button class="apagar"></button>
             </div>
 
             <div class="checkbox">
                 <input type="checkbox"> 
                 <label for="">Ajudar o Luan a usar BUTTON</label>
+                <button class="apagar"></button>
             </div>
         </div>
 
         <hr size="3" color="black">
 
         <div id="status">
-            <div></div>
+            <div class="tasks">
+                Tarefas completas: 
+                <div class="tarefas-completas">0</div>
+            </div>
+            <div class="tasks">
+                Tarefas pendentes:
+                <div class="tarefas-pendentes">3</div>
+            </div>
         </div>
 
     </div>

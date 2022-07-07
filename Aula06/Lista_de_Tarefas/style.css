@@ -45,7 +45,7 @@ body{
 }
 
 .btn-adicionar:hover{
-    background-color: rgb(39, 39, 39);
+    background-color: rgb(73, 73, 73);
 }
 
 #tarefas{
@@ -54,4 +54,18 @@ body{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    font-size: 18px;
+}
+
+#status{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.tasks{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
 }
